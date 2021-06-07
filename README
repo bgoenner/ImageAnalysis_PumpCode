@@ -1,0 +1,21 @@
+
+# Image Analysis code
+
+This code was developed to work with a Ismatec 24 channel 
+pump and pneumatic solenoid array that controlled a set of 
+microvalves.
+
+The main code would simultaniously communicate with the 
+physical systems and process imput from a cammera. The 
+program will initialize as a terminal program that can 
+process the image while the system is running or read in 
+already recorded video for verifying or to perform the 
+processing after testing. 
+
+## Required python packages
+
+opencv-python
+numpy
+pandas
+matplotlib
+modbus
